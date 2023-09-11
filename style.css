@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    font-family: inter;
+}
+#menusuperior{
+    background-color: #303030;
+    margin-left: 0px;
+    padding: 80px;
+}
+#titulo-menusuperior{
+    color: #FFF;
+    font-family: inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; 
+    letter-spacing: -2.5px;
+    
+    
+}
+#texto-menusuperior{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+#texto-menuinformação{
+    background-color: #eef1f1 ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 0px;
+    padding: 40px;
+}
+.texto-informacional{
+    background-color: #eef1f1 ;
+    margin-left: 25%;
+}
+.numeros{
+    background-color: #eef1f1;
+    font-size: 25px;
+    
+}
+#detalhes{
+    background-color: #FFFFFF ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: center;
+    margin-top:  30px;
+    padding: 50px 
+}
+.informações-titulotexto{
+    padding-left: -200px;
+    padding-right: 50px
+}
+#titulo-detalhes{
+    padding-top: 20%;
+    margin-bottom: 50px;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 100%;
+}
+#texto-detalhes{
+    font-weight: 300;
+    line-height:30px;
+    font-size: 24px;
+    margin-bottom: 180px;
+
+}
+#fotospace{
+    margin-left: 10px;
+    max-width: 100%;
+    min-width: 250px;
+
+}
+
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    padding-top: 1%;
+}
+#titulo-formulario{
+    margin-top: 50px;
+    color:#FFFFFF;
+    height: 48px;
+    font-size: 25px;
+    text-align: center;
+}
+input{
+    background-color:#FFFFFF ;
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 0px;
+}
+button{
+    background-color: #c07212;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin: 15px;    
+    border-radius: 10px;    
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 60px;
+}
+button:hover{
+    background-color:#e98a16 ;
+    color: white;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.644);
+    transform:translateY(-5px) ;
+    transition-duration: 0.5s;
+}
